@@ -7,6 +7,7 @@ btnEl.addEventListener("click", ()=> {
     createPassword();
 });
 
+//if the copy icon is clicked, then the password is copied and the alert pops up for a brief moment 
 copyIconEl.addEventListener("click",()=>{
     copyPassword();
     if(inputEl.value){
@@ -18,8 +19,8 @@ copyIconEl.addEventListener("click",()=>{
 });
 
 /*
-In the createPassword() function, a random number is chosen on line 29, and then the character at that index in
-the chars string will be assigned to the password on line 30 until the desired length is reached. Once this is done,
+In the createPassword() function, a random number is chosen on the fifth line of the function, and then the character at that index in
+the chars string will be assigned to the password on the sixth line of the function. This continues until the desired length is reached. Once this is done,
 the alert will pop up (the conditions of this alert are managed in function above)
 */
 function createPassword(){
