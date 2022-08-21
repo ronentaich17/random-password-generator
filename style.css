@@ -5,6 +5,20 @@ body{
     align-items: center;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+    background-color: pink;
+}
+
+button[type="submit"]{
+    top: -90px;
+    float: right;
+    position: relative;
+    background-color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+
 }
 
 .password-container{
