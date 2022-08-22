@@ -12,7 +12,7 @@ copyIconEl.addEventListener("click",()=>{
     copyPassword();
     if(inputEl.value){
         alertContainerEl.classList.remove("active");
-        setTimeout(()=>{
+        setTimeout(()=>{ //this is what will cause the alert to show up for a brief moment, then go away. the "active" is what triggers it
             alertContainerEl.classList.add("active");
         },2000);
     }
