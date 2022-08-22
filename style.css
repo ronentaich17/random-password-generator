@@ -7,7 +7,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     background-color: pink;
 }
-
+/* this is the button that will take users to the github link */
 button[type="submit"]{
     top: -90px;
     float: right;
@@ -83,6 +83,7 @@ button[type="submit"]{
     transform: scale(0.95);
 }
 
+/*the pop-up that will come up when a password is copied, it only shows up on the screen beiefly*/
 .alert-container{
     position: fixed;
     width: 300px;
